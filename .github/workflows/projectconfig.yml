@@ -25,7 +25,7 @@ jobs:
       - name: Build and push Docker Image
         uses: mr-smithers-excellent/docker-build-push@v4
         with:
-          image: sp0609/imagetrial1
+          image: pramit16/myimg
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
